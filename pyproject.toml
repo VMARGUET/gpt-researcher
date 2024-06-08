@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.10,<3.12"
 beautifulsoup4 = ">=4.12.2"
 colorama = ">=0.4.6"
 duckduckgo_search = ">=4.1.1"
@@ -21,9 +21,9 @@ pydantic = ">=2.5.1"
 fastapi = ">=0.104.1"
 python-multipart = ">=0.0.6"
 markdown = ">=3.5.1"
-langchain = ">=0.1.4,<0.2.0"  # Updated version
+langchain = ">=0.1.4,<0.2.0"  # Update this line to match the required version
 langgraph = ">=0.0.29,<0.1"
-langchain_community = "^0.2"
+langchain_community = ">=0.0.32,<0.1"  # Adjust this line to a compatible version
 langchain-openai = "^0.1"
 langchain-google-genai = "^1"
 tavily-python = ">=0.2.8"
